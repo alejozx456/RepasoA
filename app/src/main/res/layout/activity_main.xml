@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/idNombrePrimera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_nombre" />
+
+    <TextView
+        android:id="@+id/idApellidoRegresado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:text="@string/edit_text_apellido" />
+
+    <Button
+        android:id="@+id/idButtonPrimeraEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Enviar"
+        android:text="@string/edit_button_enviar" />
+
+    <Button
+        android:id="@+id/idButtonCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MostrarNombreC"
+        android:text="@string/button_completo"
+        android:visibility="visible" />
+</LinearLayout>

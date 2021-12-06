@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RepasoA</string>
+    <string name="edit_text_nombre">Nombre</string>
+    <string name="edit_button_enviar">Enviar</string>
+    <string name="edit_text_nombre_segunda">Nombre</string>
+    <string name="button_regresar_segunda">Regresar</string>
+    <string name="edit_text_nombre_regresar">Apellido</string>
+    <string name="edit_text_apellido">Apellido</string>
+    <string name="button_completo">Mostrar</string>
+</resources>
